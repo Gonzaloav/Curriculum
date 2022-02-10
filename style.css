@@ -1,0 +1,17 @@
+body {
+    display: flex; 
+    justify-content: center;
+}
+ 
+.wrapper {
+    width: 60%;
+    background: red;
+}
+
+.contact {
+    text-align: center;
+}
+
+
+
+
