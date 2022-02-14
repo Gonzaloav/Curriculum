@@ -3,12 +3,12 @@ body {
     justify-content: center;
 }
  
-.wrapper {
+div.wrapper {
     width: 60%;
     background: red;
 }
 
-.contact {
+h2.contact {
     text-align: center;
 }
 
