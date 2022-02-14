@@ -17,7 +17,7 @@ function main (){
             Counter: 0,
         } 
         }
-    )
+    )console.log (conter)
 }
 
    
