@@ -6,15 +6,6 @@ body {
     font-family: Arial;
 }
 
-.wrapper {
-    width: 60%;
-    background: red;
-}
-
-.contact {
-    text-align: center;
-}
-
 h1 {
     color: blue;
     text-align: center;
