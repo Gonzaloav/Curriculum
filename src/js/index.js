@@ -17,8 +17,9 @@ function main (){
             Counter: 0,
         } 
         }
-    )console.log (conter)
+    );console.log (conter);
 }
+
 
   <a href= "index.html">Inico</a> 
   
