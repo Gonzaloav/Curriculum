@@ -1,0 +1,19 @@
+body {
+    display: flex; 
+    justify-content:space-evenly 
+    }
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display:flex; 
+    align-items:center;
+    flex-direction: row; 
+    min-width: 100%;   
+}
+
