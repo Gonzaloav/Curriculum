@@ -13,9 +13,9 @@
            <header>
                 <h1> NOTICIAS GONZALO </h1> 
                 <nav>
-                        <li>Blog </li>
-                        <li>Contacto</li>
-                        <li>Curriculum</li>   
+                        <li><a href="./blog.html">blog</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="noticiablog1.html"> Noticiablog1</a></li>   
                 </nav>
             </header>
         <section>
@@ -91,20 +91,35 @@
                     </ul>
             </article>
         </section>
-            <nav>
-                <li>Blog </li>
-                <li>Contacto</li>
-                <li>Curriculum</li>   
-            </nav>
-        <section>
-                <h2>SECCIONES</h2>
-            <ul>
-                <li> Articulos </li>
-                <li> Libros </li>
-                <li> Consejos </li>
-            </ul>
-        </section>
         </main>
+        <h2>SECCIONES</h2>
+        <ul>
+            <li> Articulos </li>
+            <li> Libros </li>
+            <li> Consejos </li>
+        </ul>
+        <form>
+            <form action="/mi primer formulario" method="get">
+                <ul>
+                 <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">Correo Electrónico:</label>
+                   <input type="email" id="mail" name="user_mail">
+                 </li>
+                 <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Envíe su mensaje</button>
+                  </li>
+                </ul>
+            </form>
+        </form>
+
     </body>
 </html>
 
