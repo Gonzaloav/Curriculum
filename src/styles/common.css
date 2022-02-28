@@ -88,3 +88,14 @@ form {
   button {
     margin-left: .6em;
   }
+  .aside {
+    display: flex;
+    flex-direction: column;
+    max-height: 80vw;
+  }
+  .secciones {
+    flex-grow: 1;
+  }
+  .formulario {
+    align-self: flex-end;
+  }
